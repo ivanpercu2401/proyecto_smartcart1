@@ -37,7 +37,7 @@ import axios from 'axios';
 import { onMounted, ref } from 'vue';
 
 // Rutas de la API
-const baseURL = 'http://localhost:8080/smartcar/vehiculo';
+const baseURL = 'http://localhost:8081/smartcar/vehiculo';
 
 
 const modal1IsOpen = ref(false);

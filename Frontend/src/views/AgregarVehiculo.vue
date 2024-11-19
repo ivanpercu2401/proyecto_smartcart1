@@ -18,8 +18,8 @@ import axios from 'axios';
 import { onMounted, ref } from 'vue';
 
 // Rutas de la API
-const baseURLVehiculo = 'http://localhost:8080/smartcar/vehiculo';
-const baseURLAdmin = 'http://localhost:8080/smartcar/administrador';
+const baseURLVehiculo = 'http://localhost:8081/smartcar/vehiculo';
+const baseURLAdmin = 'http://localhost:8081/smartcar/administrador';
 
 const items = ref<Array<ItemTypeAdmin>>([]);
   const vehiculo = ref({
